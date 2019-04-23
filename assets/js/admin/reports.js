@@ -152,6 +152,7 @@ jQuery(function( $ ) {
 				csv_data = csv_data.substring( 0, csv_data.length - 1 );
 				csv_data += '\n';
 			});
+			
 
 			$( this ).offsetParent().find( 'tfoot tr' ).each( function() {
 				$( this ).find( 'th, td' ).each( function() {
